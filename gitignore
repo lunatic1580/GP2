@@ -1,0 +1,54 @@
+# Общие исключения для Python
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+.DS_Store
+
+# Файлы зависимостей
+venv/
+.env
+*.venv
+Pipfile
+Pipfile.lock
+requirements.txt
+
+# Лог-файлы и временные файлы
+logs/
+*.log
+*.out
+*.err
+*.pid
+*.bak
+*.tmp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Google Colab
+*.colab
+
+# Данные и модели
+data/
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.h5
+*.db
+*.sqlite
+*.sav
+*.pkl
+
+# Результаты анализа и отчеты
+reports/
+*.html
+*.pdf
+*.md
+
+# Конфигурационные файлы и кэш
+*.cache
+*.config
+*.idea/
+.vscode/
